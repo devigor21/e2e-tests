@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+@import-normalize;
+
+body {
+  margin: 0;
+  height: 100vh;
+  font-family: Roboto, sans-serif;
+  background-color: #ccc;
+}
+.btn, .search {
+  padding: .2rem, 1.5rem;
+  margin: 1rem 0.5rem 0.5rem;
+}
+.wrapper {
+  margin-top: 4rem;
+}

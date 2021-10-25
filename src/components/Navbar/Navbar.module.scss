@@ -1,0 +1,92 @@
+$grey: #dddddd;
+$dark-grey:rgb(70, 70, 70);
+$pink: #be81e7;
+$blue: #236fc5;
+$whity: #F9F3F3;
+
+@mixin hoverColor() {
+  background-color: $whity;
+  color: $blue;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: $blue;
+  font-weight: 700;
+  height: 3.5rem;
+  width: 100vw;
+  position: fixed;
+  z-index: 101;
+  top: 0;
+  left: 0;
+  font-size: 1rem;
+  color: $whity;
+
+  &>*:hover {
+    cursor: pointer;
+  }
+
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    color: inherit;
+    text-decoration: none;
+  }
+
+  //logo
+  &__logo {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    padding-left: 1.2rem;
+    left: 0;
+    z-index: 150;
+
+    @media (max-width:650px) {
+      display: none;
+    }
+  }
+
+  &__logoTitle {
+    font-size: 1.5rem;
+    font-weight: 900;
+    padding-left: 10px;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  //list
+  &__list {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    z-index: 200;
+    font-size: 1.2rem;
+    padding: 0;
+  }
+
+  &__listItem {
+    padding: 0 1.5rem;
+    list-style-type: none;
+
+    & a {
+      text-decoration: none;
+      color: white;
+
+      &:hover {
+        @include hoverColor();
+      }
+    }
+
+    &:hover {
+      @include hoverColor();
+      cursor: initial;
+    }
+  }
+}

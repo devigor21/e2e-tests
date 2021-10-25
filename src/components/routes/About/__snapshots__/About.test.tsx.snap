@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`About component should not change 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="wrapper"
+      >
+        <h1
+          style="color: rgb(40, 41, 51);"
+        >
+          This is website for homeworks
+        </h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti dignissimos quos ab animi dolores autem! Exercitationem architecto, laborum qui veniam, sint ipsam possimus facilis iure eius dignissimos tempora facere repellendus animi ratione reiciendis vero odio nostrum dolores cupiditate odit dolorem. Unde magni possimus qui, ipsum culpa soluta aut voluptas ullam, ipsam quo quos, repudiandae numquam id ratione deleniti. Labore corrupti veritatis ipsum velit voluptatem vel quod, doloribus quaerat laboriosam ut. Laborum nesciunt distinctio esse deserunt aperiam nam? Quae vero veritatis explicabo, at ab recusandae numquam adipisci labore nam? Fugit ut, rem non facere pariatur possimus ipsam ullam ea nostrum delectus quaerat ratione eos cum tempora, saepe molestias distinctio quis fugiat repudiandae.
+        </p>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="wrapper"
+    >
+      <h1
+        style="color: rgb(40, 41, 51);"
+      >
+        This is website for homeworks
+      </h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti dignissimos quos ab animi dolores autem! Exercitationem architecto, laborum qui veniam, sint ipsam possimus facilis iure eius dignissimos tempora facere repellendus animi ratione reiciendis vero odio nostrum dolores cupiditate odit dolorem. Unde magni possimus qui, ipsum culpa soluta aut voluptas ullam, ipsam quo quos, repudiandae numquam id ratione deleniti. Labore corrupti veritatis ipsum velit voluptatem vel quod, doloribus quaerat laboriosam ut. Laborum nesciunt distinctio esse deserunt aperiam nam? Quae vero veritatis explicabo, at ab recusandae numquam adipisci labore nam? Fugit ut, rem non facere pariatur possimus ipsam ullam ea nostrum delectus quaerat ratione eos cum tempora, saepe molestias distinctio quis fugiat repudiandae.
+      </p>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
