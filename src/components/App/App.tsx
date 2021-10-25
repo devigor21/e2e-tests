@@ -13,8 +13,8 @@ const App: FC = () => (
     <Navbar />
     <div className={classes.wrapper}>
       <Switch>
-        <Route exact path="/" component={Home} />
-        <Route exact path="/about" component={About} />
+        <Route exact path="/e2e-tests" component={Home} />
+        <Route exact path="/e2e-tests/about" component={About} />
         <Route path="*" component={NotFound} />
       </Switch>
     </div>

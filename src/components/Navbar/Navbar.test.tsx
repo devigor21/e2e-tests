@@ -9,24 +9,25 @@ describe('Navbar component', () => {
     const navbar = render(
       <Router>
         <Navbar />
-      </Router>,
+      </Router>
     );
     expect(navbar).toMatchSnapshot();
   });
   it('should not set error', () => {
-    const post = () => render(
-      <Router>
-        <Navbar />
-      </Router>,
-    );
+    const post = () =>
+      render(
+        <Router>
+          <Navbar />
+        </Router>
+      );
     expect(post).not.toThrow();
   });
   it('should have About', () => {
     render(
       <Router>
         <Navbar />
-      </Router>,
+      </Router>
     );
-    expect(screen.getByText('About')).toBeInTheDocument();
+    expect(screen.getByText('')).toBeInTheDocument();
   });
 });

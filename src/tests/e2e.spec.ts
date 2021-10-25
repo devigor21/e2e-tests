@@ -11,7 +11,7 @@ describe('E2E Tests', () => {
   beforeAll(async () => {
     browser = await puppeteer.launch();
     page = await browser.newPage();
-    await page.goto('https://6168719eb424090007f78fa1--kind-roentgen-3e48c2.netlify.app/', {
+    await page.goto('https://devigor21.github.io/e2e-tests/', {
       waitUntil: ['domcontentloaded'],
     });
   });
@@ -38,8 +38,8 @@ describe('E2E Tests', () => {
   });
 
   it('should show content on about page', async () => {
-    await page.waitForSelector('a[href="/about"]');
-    await page.click('a[href="/about"]');
+    await page.waitForSelector('a[href="/e2e-tests/about"]');
+    await page.click('a[href="/e2e-tests/about"]');
     const text = await page.evaluate(() => document.body.textContent);
     expect(text).toContain('Lorem ipsum dolor sit amet');
   });

@@ -11,7 +11,7 @@ Object {
         <a
           aria-current="page"
           class="nav__wrapper active"
-          href="/"
+          href="/e2e-tests/"
         >
           <div
             class="nav__logo"
@@ -30,7 +30,7 @@ Object {
             class="nav__listItem"
           >
             <a
-              href="/about"
+              href="/e2e-tests/about"
             >
               About
             </a>
@@ -57,7 +57,7 @@ Object {
       <a
         aria-current="page"
         class="nav__wrapper active"
-        href="/"
+        href="/e2e-tests/"
       >
         <div
           class="nav__logo"
@@ -76,7 +76,7 @@ Object {
           class="nav__listItem"
         >
           <a
-            href="/about"
+            href="/e2e-tests/about"
           >
             About
           </a>
